@@ -9,7 +9,7 @@
         }
 
         body {
-            background-color: black;
+            background-color: rgb(5, 175, 62);
             font-family: Verdana, sans-serif;
             margin: 0;
             color: whitesmoke;
@@ -17,8 +17,16 @@
             padding: 0 50px 50px;
         }
 
+        a {
+            color: rgba(0, 0, 0, 0.8)
+        }
+
+        a:hover {
+            color: darkgreen;
+        }
+
         .red-border {
-            border: 1px solid red;
+            border: 4px solid rgb(185, 4, 4);
             padding: 10px 20px;
             text-align: center;
             display: inline-block;
@@ -33,7 +41,7 @@
         }
 
         h1 {
-            color: red;
+            color: rgb(182, 8, 8);
             text-align: center;
         }
 
@@ -47,6 +55,15 @@
             /* text-align: center */
         }
 
+        hr {
+            height: 24px;
+            background-color: beige;
+        }
+
+        img {
+            margin: 10px;
+        }
+
         .video {
             display: flex;
             justify-content: center;
@@ -54,7 +71,7 @@
 
         iframe {
             width: 800px;
-            height: 600px;
+            height: 480px;
         }
 
         .mySlides {
@@ -63,6 +80,29 @@
 
         img {
             vertical-align: middle;
+        }
+
+        .cast-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cast {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .member img {
+            border-radius: 50%;
+            border: 1px solid beige;
         }
 
         /* Slideshow container */
@@ -200,155 +240,204 @@
         <strong>Meet Ali. Sexy, charming, dreamy, and looking for love in all the wrong places.</strong>
     </p>
 
-    <p>
-        <a href="../html-link.htm" style="color:whitesmoke">CONTACT US</a>
-        <a href="mailto:lovesmelovesmenotmovie@gmail.com"> </a>
-
-    </p>
-
     <div class="video">
         <iframe src="https://player.vimeo.com/video/353463739" frameborder="0" allow="autoplay; fullscreen"
             allowfullscreen></iframe>
     </div>
 
+    <ul>
+        <li>Genres: Comedy/Dark Comedy</li>
+        <li>Run Time: 75 minutes</li>
+        <li>Location: Filmed in Los Angeles, California USA</li>
+        <li>Language: English (CC in English and Spanish</li>
+        <li>Technical Specs:</li>
+        <li>Dolby 5.1 4K</li>
+        <li>Aspect Ration 1:85</li>
+    </ul>
+
+    <hr>
+
     <h2>About</h2>
 
-    <p>ALI SILVER searches for Mr. Right but finds misadventures that are darkly outrageous and sexy with an
-        assortment of ne'er-do-wells who are inappropriate, unobtainable or unmanageable. Looking for Mr.
+    <p>ALI SILVER searches for Mr. Right but finds misadventures
+        that are darkly outrageous and sexy with an
+        assortment of ne'er-do-wells who are inappropriate, unobtainable
+        or unmanageable. Looking for Mr.
         Goodbar meets Sex and the City.</p>
-
-    <strong>Directed By</strong>: <span>Wayne Powers</span>
-    </p>
-
-    <p> Wayne Powers has written features including Paramount’s The Italian Job starring Mark Wahlberg, Charlize
-        Theron
-        and Edward Norton.
-    </p>
-
-    <a href="https://www.imdb.com/name/nm0694638/?ref_=tt_ov_dr">See more</a>
     <p>
-        <strong>Written By</strong>:<span> Lisa Anne Penny & Wayne Powers</span></p>
+        <strong>Directed By</strong>: <span>Wayne Powers</span>
+    </p>
 
-    </h2>
+    <p> Wayne Powers has written features including Paramount’s
+        The Italian Job starring Mark Wahlberg, Charlize
+        Theron and Edward Norton. <a href="https://www.imdb.com/name/nm0694638/?ref_=tt_ov_dr">See more...</a>
+    </p>
 
-    <strong>Produced By</strong>:
-    <span>Rasheed Stephens,
-        Wayne Powers<span>
+    <div class="cast-container">
+        <div class="cast">
+            <a href="https://www.imdb.com/title/tt0317740/?ref_=nv_sr_1?ref_=nv_sr_1"><img
+                    src='images/italianjob.jpg' /></a>
+        </div>
+        <div class="cast">
+            <a href="https://www.imdb.com/title/tt0149261/"><img src='images/deepblue.jpg' /></a>
+        </div>
+        <div class="cast">
+            <a href="https://www.imdb.com/title/tt0329476/?ref_=nv_sr_1?ref_=nv_sr_1"><img
+                    src='images/outoforder.jpg' /></a>
+        </div>
 
-            <p>
-                <strong>Stars</strong>: <span>Isabelle Chester, David Chokachi, David DeLuise</span>
-            </p>
-            <p>
-                <a href="https://www.imdb.com/title/tt9331550/fullcredits/?ref_=tt_ov_st_sm">See full cast & crew</a>
-            </p>
+        <p>
+            <strong>Written By</strong>:<span> Lisa Anne Penny & Wayne Powers</span>
+        </p>
 
-            <h2><strong> Gallery</strong></h2>
+        <strong>Produced By: </strong>
+        <span>Rasheed Stephens, Wayne Powers</span>
 
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 8</div>
-                    <img src="images/2inthepool.png" style="width:100%">
-                    <div class="text"></div>
+        <p>
+            <strong>Stars:</strong>
+            <div class="cast-container">
+                <div class="cast">
+                    <div class="member">
+                        <a href="https://www.imdb.com/name/nm2957882/?ref_=nv_sr_1?ref_=nv_sr_1"><img
+                                src="images/Isabelle.jpg" /></a>
+                        <a href="https://www.imdb.com/name/nm2957882/?ref_=nv_sr_1?ref_=nv_sr_1">Isabelle Chester</a>
+                    </div>
+                    <div class="member">
+                        <a href="https://www.imdb.com/name/nm0002003/?ref_=nv_sr_1?ref_=nv_sr_1"><img
+                                src="images/David.jpg" /></a>
+                        <a href="https://www.imdb.com/name/nm0002003/?ref_=nv_sr_1?ref_=nv_sr_1">David Chokachi</a>
+                    </div>
+                    <div class="member">
+                        <a href="https://www.imdb.com/name/nm0217936/?ref_=nv_sr_1?ref_=nv_sr_1"><img
+                                src="images/David2.jpg" /></a>
+                        <a href="https://www.imdb.com/name/nm0217936/?ref_=nv_sr_1?ref_=nv_sr_1">David DeLuise</a>
+                    </div>
+                    <div class="member">
+                        <a href="https://www.imdb.com/name/nm0735467/?ref_=nv_sr_1?ref_=nv_sr_1"><img
+                                src="images/Paul.jpg" /></a>
+                        <a href="https://www.imdb.com/name/nm0735467/?ref_=nv_sr_1?ref_=nv_sr_1">Paul Rodriguez</a>
+                    </div>
                 </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 8</div>
-                    <img src="images/Alibeach.png" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 8</div>
-                    <img src="images/Creditimage.png" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 8</div>
-                    <img src="images/Georgia.png" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 8</div>
-                    <img src="images/Jasmin.png" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">6/ 8</div>
-                    <img src="images/kiss.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">7 / 8</div>
-                    <img src="images/lovesme.jpg" style="width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <!-- <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="images/party.png" width:100%">
-            <div class="text">Caption Three</div>
-        </div> -->
-
-                <div class="mySlides fade">
-                    <div class="numbertext">8 / 8</div>
-                    <img src="images/poster.jpg" width:100%">
-                    <div class="text"></div>
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
             </div>
-            <br>
+        </p>
+        <p class="center">
+            <a href="https://www.imdb.com/title/tt9331550/fullcredits/?ref_=tt_ov_st_sm">See full cast & crew</a>
+        </p>
 
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
-                <span class="dot" onclick="currentSlide(8)"></span>
+        <strong>For additional information or inquires:</strong>
+        <p class="center">
+            <a href="mailto:lovesmelovesmenotmovie@gmail.com">CONTACT US</a>
+        </p>
+
+        <hr>
+
+        <h2><strong> Gallery</strong></h2>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 9</div>
+                <img src="images/2inthepool.jpg" style="width:100%">
+                <div class="text"></div>
             </div>
 
-            <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 9</div>
+                <img src="images/Alibeach.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
 
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 9</div>
+                <img src="images/party.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
 
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 9</div>
+                <img src="images/Creditimage.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
 
-                function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = slides.length
-                    }
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 9</div>
+                <img src="images/Georgia.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 9</div>
+                <img src="images/Jasmin.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 9</div>
+                <img src="images/kiss.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 9</div>
+                <img src="images/lovesme.jpg" style="width:100%">
+                <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 9</div>
+                <img src="images/poster.jpg" width:100%">
+                <div class="text"></div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
                 }
-            </script>
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
 
 </body>
 
